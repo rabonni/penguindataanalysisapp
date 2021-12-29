@@ -12,7 +12,7 @@ import time
 st.image('penimage.png')
 
 
-st.title("Data Analysis Application on Penguins")
+st.title("Data Analysis on Penguins")
 
 st.subheader('A Web App by [DataLab Nigeria](http://www.datalab.com.ng)')
 
