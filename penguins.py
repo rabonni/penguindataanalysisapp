@@ -85,10 +85,10 @@ plt.title("Scatterplot of Palmer's Penguins: {}".format(selected_gender))
 st.pyplot(fig)
 
 
-#hide_menu_style = """
-        #<style>
-        #MainMenu {visibility: hidden; }
-        #footer {visibility: hidden;}
-        #</style>
-        #"""
-#st.markdown(hide_menu_style, unsafe_allow_html=True)
+hide_menu_style = """
+        <style>
+        MainMenu {visibility: hidden; }
+        footer {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
